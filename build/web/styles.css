@@ -1,0 +1,121 @@
+#FirstSent {
+	text-align:center;
+	font-family:italic;
+}
+#Slogan {
+	text-align:center;
+	font-family:italic;
+}
+@media only screen and (max-width: 600px) {
+	  #PhonePicture {
+		float:left;
+		width:200px;
+		height:150px
+		}
+}
+@media only screen and (min-width: 600px) {
+	  #PhonePicture {
+		float:left;
+		width:400px;
+		height:300px
+		}
+}
+
+#FirstIndexParagraph {
+	padding:40px;
+}
+@media only screen and (max-width: 600px) {
+	#FoodDeliveryPicture {
+	float:right;
+	width:200;
+	height:140px;
+	}
+}
+@media only screen and (min-width: 600px) {
+	#FoodDeliveryPicture {
+	float:right;
+	width:600px;
+	height:420px;
+	}
+}
+#SecondIndexParagraph {
+	text-align:center;
+}
+#AboutUsTitle {
+	text-align:center;
+	font-family:italic;
+}
+@media only screen and (max-width: 600px) {
+	#PictureOfPeople {
+	float:left;
+	width:200px;
+	height:110px;
+	}
+}
+@media only screen and (min-width: 600px) {
+	#PictureOfPeople {
+	float:left;
+	width:600px;
+	height:320px;
+	}
+}
+#FirstAboutUsParagraph {
+	padding:10px;
+}
+@media only screen and (max-width: 600px) {
+	#DeliveryGuy {
+	float:right;
+	width:200px;
+	height:110px;
+	}
+}
+@media only screen and (min-width: 600px) {
+	#DeliveryGuy {
+	float:right;
+	width:600px;
+	height:320px;
+	}
+}
+#DeliveryGuy {
+	float:right;
+	width:600px;
+	height:320px;
+}
+#ThStyle {
+	background-color:white; 
+	background-size:cover; 
+	color:black;
+	background-attachment:fixed;
+}
+#Td1Style {
+	background-color:white; 
+	background-size:cover; 
+	color:black; 
+}
+#Td2Style {
+	background-color:white; 
+	background-size:cover; 
+	color:black; 
+}
+#Td3Style {
+	background-color:white; 
+	background-size:cover; 
+	color:black; 
+}
+#Td4Style {
+	background-color:white; 
+	background-size:cover; 
+	color:black; 
+}
+#CareersTitle {
+	text-align:center;
+	font-family:italic;
+}
+#FoodDeliveryGuy1 {
+	float:right;
+	width:600px;
+	height:600px;
+}
+.MeaningfullTitle {
+	text-align:center
+}
