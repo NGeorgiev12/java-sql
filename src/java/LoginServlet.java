@@ -18,9 +18,15 @@ import jakarta.servlet.http.HttpServletResponse;
 @WebServlet(urlPatterns = {"/LoginServlet"})
 public class LoginServlet extends HttpServlet {
     @Override
-    protected void doGet
-        (HttpServletRequest request, 
-        HttpServletResponse response)
+    protected void doGet(HttpServletRequest request, 
+            HttpServletResponse response)
             throws ServletException, IOException {
+        String user = request.getParameter("user");
+        String pass = request.getParameter("pass");
+        if (user.equals("Georgiev") && pass.equals("1234")) {
+            response.getWriter().println("Login successful");
+        } else {
+            response.getWriter().println("Login failed");
+        }
     }
 }
